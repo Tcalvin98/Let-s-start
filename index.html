@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <meta
+      name="description"
+      content="Ikamba Foods LTD - Sustainable mixed farming in Rwanda: dairy, poultry, piggery, honey, livestock feeds & seasonal crops."
+    />
+
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Ikamba Foods LTD | Sustainable Farming in Rwanda</title>
+  </head>
+  <body>
+    <!-- ===== LOADING SCREEN ===== -->
+    <div class="loading-screen" id="loadingScreen">
+      <div class="loading-spinner"></div>
+      <p>Loading Ikamba Foods LTD</p>
+    </div>
+
+    <!-- ===== HEADER ===== -->
+    <header class="site-header">
+      <div class="container header-row">
+        <div class="logo">
+          <span>Ikamba Foods LTD</span>
+          <span class="logo-subtitle">Sustainable Farming in Rwanda</span>
+        </div>
+
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#impact">Impact</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Hamburger (opens full-screen side menu) -->
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-controls="sideMenu"
+          aria-expanded="false"
+          aria-label="Open menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- ===== SIDE / OVERLAY NAV ===== -->
+    <nav id="sideMenu" class="side-menu" aria-hidden="true">
+      <button class="close-menu" id="closeMenu" aria-label="Close menu">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="side-menu-content">
+        <div class="side-logo">Ikamba Foods LTD</div>
+        <ul class="side-links" role="menu">
+          <li role="none"><a role="menuitem" href="#about">About</a></li>
+          <li role="none"><a role="menuitem" href="#products">Products</a></li>
+          <li role="none"><a role="menuitem" href="#impact">Impact</a></li>
+          <li role="none"><a role="menuitem" href="#contact">Contact</a></li>
+        </ul>
+        <div class="side-footer">
+          <p>Mwulire, Rwamagana, Rwanda</p>
+          <p>+250 792 579 878</p>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <main>
+      <section class="hero" id="home" aria-label="Homepage hero">
+        <div class="hero-background">
+          <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-inner container">
+          <div class="hero-content">
+            <h1 class="hero-title">Sustainable Farming Excellence in Rwanda</h1>
+            <p class="hero-lead">
+              Leading mixed farming operations — dairy, poultry, piggery, pure
+              honey, livestock feeds and fresh seasonal produce, cultivated with
+              care for people and planet.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-cta" href="#products">
+                <span>Explore Our Products</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+              <a class="btn btn-outline" href="#contact">
+                <span>Contact Us</span>
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+          <!-- <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-number" data-count="100">0</div>
+              <div class="stat-label">Happy Customers</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-count="15">0</div>
+              <div class="stat-label">Years of Experience</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-count="9">0</div>
+              <div class="stat-label">Product Categories</div>
+            </div>
+          </div> -->
+        </div>
+        <div class="scroll-indicator">
+          <span>Scroll to explore</span>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </section>
+
+      <!-- ===== ABOUT ===== -->
+      <section id="about" class="section about">
+        <div class="container">
+          <div class="section-header">
+            <h2>Our Sustainable Mission</h2>
+            <p class="section-subtitle">
+              Nourishing communities while protecting Rwanda's natural resources
+            </p>
+          </div>
+
+          <div class="about-flex">
+            <div class="about-image">
+              <div class="image-container">
+                <img
+                  src="img/farming2-min.jpg"
+                  alt="Ikamba farm operations showing sustainable agricultural practices"
+                />
+                <div class="image-overlay">
+                  <div class="overlay-content">
+                    <i class="fas fa-leaf"></i>
+                    <p>Sustainable Farming Since 2009</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-content">
+              <article class="card hover-card">
+                <div class="card-icon">
+                  <i class="fas fa-bullseye"></i>
+                </div>
+                <h3>Our Mission</h3>
+                <p>
+                  To provide high-quality agricultural products through
+                  sustainable mixed farming practices while supporting local
+                  communities and preserving Rwanda's natural resources for
+                  future generations.
+                </p>
+              </article>
+
+              <article class="card hover-card">
+                <div class="card-icon">
+                  <i class="fas fa-award"></i>
+                </div>
+                <h3>Our Expertise</h3>
+                <ul class="expertise-list">
+                  <li>
+                    <i class="fas fa-cow"></i
+                    ><strong>Dairy Farming:</strong> Modern ethical milk
+                    production
+                  </li>
+                  <li>
+                    <i class="fas fa-piggy-bank"></i
+                    ><strong>Piggery:</strong> Humane pork production
+                  </li>
+                  <li>
+                    <i class="fas fa-egg"></i
+                    ><strong>Poultry:</strong> Free-range eggs & meat
+                  </li>
+                  <li>
+                    <i class="fa-brands fa-forumbee"></i>
+                    <strong>Apiculture:</strong> Pure honey production
+                  </li>
+                  <li>
+                    <i class="fas fa-seedling"></i
+                    ><strong>Livestock Feeds:</strong> Balanced nutrition
+                  </li>
+                  <li>
+                    <i class="fas fa-carrot"></i
+                    ><strong>Crop Production:</strong> Seasonal avocados,
+                    watermelons & more
+                  </li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== IMPACT SECTION ===== -->
+      <section id="impact" class="section impact">
+        <div class="container">
+          <div class="section-header">
+            <h2>Our Impact</h2>
+            <p class="section-subtitle">
+              Creating sustainable value for farmers, communities, and the
+              environment
+            </p>
+          </div>
+
+          <div class="impact-grid">
+            <div class="impact-card">
+              <div class="impact-icon">
+                <i class="fas fa-hand-holding-usd"></i>
+              </div>
+              <h3>Economic Empowerment</h3>
+              <p>
+                Supporting local farmers with fair pricing and sustainable
+                income opportunities
+              </p>
+            </div>
+
+            <div class="impact-card">
+              <div class="impact-icon">
+                <i class="fas fa-recycle"></i>
+              </div>
+              <h3>Environmental Stewardship</h3>
+              <p>
+                Implementing regenerative practices that improve soil health and
+                biodiversity
+              </p>
+            </div>
+
+            <div class="impact-card">
+              <div class="impact-icon">
+                <i class="fas fa-users"></i>
+              </div>
+              <h3>Community Development</h3>
+              <p>
+                Creating jobs and supporting local infrastructure in Rwamagana
+                district
+              </p>
+            </div>
+          </div>
+
+          <div class="impact-stats">
+            <div class="impact-stat">
+              <div class="stat-number" data-count="500">0</div>
+              <div class="stat-label">Farmers Supported</div>
+            </div>
+            <div class="impact-stat">
+              <div class="stat-number" data-count="1000">0</div>
+              <div class="stat-label">Acres Under Sustainable Management</div>
+            </div>
+            <div class="impact-stat">
+              <div class="stat-number" data-count="85">0</div>
+              <div class="stat-label">Local Employees</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== PRODUCTS ===== -->
+      <section id="products" class="section products">
+        <div class="container">
+          <div class="section-header">
+            <h2>Our Premium Products</h2>
+            <p class="section-subtitle">
+              Farm-fresh products grown and produced with care for quality and
+              sustainability
+            </p>
+          </div>
+
+          <div class="product-filters">
+            <button class="filter-btn active" data-filter="all">
+              All Products
+            </button>
+            <button class="filter-btn" data-filter="produce">
+              Fresh Produce
+            </button>
+            <button class="filter-btn" data-filter="dairy">Dairy</button>
+            <button class="filter-btn" data-filter="livestock">
+              Livestock Products
+            </button>
+          </div>
+
+          <div class="product-grid" role="list">
+            <article
+              class="product-card card hover-card"
+              data-category="produce"
+              role="listitem"
+            >
+              <div class="product-image">
+                <img
+                  src="img/Avocado.webp"
+                  alt="Fresh organic avocados from Ikamba Farms"
+                />
+                <div class="product-overlay">
+                  <button class="product-quick-view">Quick View</button>
+                </div>
+              </div>
+              <div class="product-content">
+                <h3>Avocados</h3>
+                <p class="product-description">
+                  Premium avocados harvested at peak ripeness.
+                </p>
+                <div class="product-meta">
+                  <span class="product-category">Fresh Produce</span>
+                  <span class="product-badge organic">Organic</span>
+                </div>
+              </div>
+            </article>
+
+            <article
+              class="product-card card hover-card"
+              data-category="produce"
+              role="listitem"
+            >
+              <div class="product-image">
+                <img
+                  src="img/watermelon.avif"
+                  alt="Sweet juicy watermelons grown in Rwanda"
+                />
+                <div class="product-overlay">
+                  <button class="product-quick-view">Quick View</button>
+                </div>
+              </div>
+              <div class="product-content">
+                <h3>Watermelons</h3>
+                <p class="product-description">
+                  Sweet, juicy and fresh seasonal watermelons.
+                </p>
+                <div class="product-meta">
+                  <span class="product-category">Fresh Produce</span>
+                  <span class="product-badge seasonal">Seasonal</span>
+                </div>
+              </div>
+            </article>
+
+            <article
+              class="product-card card hover-card"
+              data-category="produce"
+              role="listitem"
+            >
+              <div class="product-image">
+                <img
+                  src="img/chillipeppers.avif"
+                  alt="Spicy chili peppers for cooking and processing"
+                />
+                <div class="product-overlay">
+                  <button class="product-quick-view">Quick View</button>
+                </div>
+              </div>
+              <div class="product-content">
+                <h3>Chili Peppers</h3>
+                <p class="product-description">
+                  Spicy, flavorful peppers for home and industry.
+                </p>
+                <div class="product-meta">
+                  <span class="product-category">Fresh Produce</span>
+                </div>
+              </div>
+            </article>
+
+            <article
+              class="product-card card hover-card"
+              data-category="produce"
+              role="listitem"
+            >
+              <div class="product-image">
+                <img
+                  src="img/greenbeans.webp"
+                  alt="Fresh green beans harvested daily"
+                />
+                <div class="product-overlay">
+                  <button class="product-quick-view">Quick View</button>
+                </div>
+              </div>
+              <div class="product-content">
+                <h3>Green Beans</h3>
+                <p class="product-description">
+                  Crisp green beans harvested for freshness.
+                </p>
+                <div class="product-meta">
+                  <span class="product-category">Fresh Produce</span>
+                </div>
+              </div>
+            </article>
+
+            <article
+              class="product-card card hover-card"
+              data-category="produce"
+              role="listitem"
+            >
+              <div class="product-image">
+                <img
+                  src="img/greenbananas.avif"
+                  alt="Green bananas for traditional Rwandan dishes"
+                />
+                <div class="product-overlay">
+                  <button class="product-quick-view">Quick View</button>
+                </div>
+              </div>
+              <div class="product-content">
+                <h3>Green Bananas</h3>
+                <p class="product-description">
+                  A staple for Rwandan cooking, harvested with care.
+                </p>
+                <div class="product-meta">
+                  <span class="product-category">Fresh Produce</span>
+                  <span class="product-badge local">Local Favorite</span>
+                </div>
+              </div>
+            </article>
+
+            <article
+              class="product-card card hover-card"
+              data-category="dairy"
+              role="listitem"
+            >
+              <div class="product-image">
+                <img
+                  src="img/dairyproducts.webp"
+                  alt="Fresh dairy products from our farm"
+                />
+                <div class="product-overlay">
+                  <button class="product-quick-view">Quick View</button>
+                </div>
+              </div>
+              <div class="product-content">
+                <h3>Dairy Products</h3>
+                <p class="product-description">
+                  Milk and dairy processed with modern quality controls.
+                </p>
+                <div class="product-meta">
+                  <span class="product-category">Dairy</span>
+                  <span class="product-badge fresh">Fresh Daily</span>
+                </div>
+              </div>
+            </article>
+
+            <article
+              class="product-card card hover-card"
+              data-category="dairy"
+              role="listitem"
+            >
+              <div class="product-image">
+                <img
+                  src="img/honey.webp"
+                  alt="Pure natural honey from our beehives"
+                />
+                <div class="product-overlay">
+                  <button class="product-quick-view">Quick View</button>
+                </div>
+              </div>
+              <div class="product-content">
+                <h3>Pure Honey</h3>
+                <p class="product-description">
+                  100% natural honey from our beekeeping operations.
+                </p>
+                <div class="product-meta">
+                  <span class="product-category">Dairy</span>
+                  <span class="product-badge organic">Organic</span>
+                </div>
+              </div>
+            </article>
+
+            <article
+              class="product-card card hover-card"
+              data-category="livestock"
+              role="listitem"
+            >
+              <div class="product-image">
+                <img
+                  src="img/pigfeeds.webp"
+                  alt="Nutritionally balanced pig feed"
+                />
+                <div class="product-overlay">
+                  <button class="product-quick-view">Quick View</button>
+                </div>
+              </div>
+              <div class="product-content">
+                <h3>Pig Feeds</h3>
+                <p class="product-description">
+                  Balanced feeds for healthy swine growth.
+                </p>
+                <div class="product-meta">
+                  <span class="product-category">Livestock Products</span>
+                  <span class="product-badge balanced"
+                    >Nutritionally Balanced</span
+                  >
+                </div>
+              </div>
+            </article>
+
+            <article
+              class="product-card card hover-card"
+              data-category="livestock"
+              role="listitem"
+            >
+              <div class="product-image">
+                <img
+                  src="img/poultryfeeds.webp"
+                  alt="Premium poultry feed for layers and broilers"
+                />
+                <div class="product-overlay">
+                  <button class="product-quick-view">Quick View</button>
+                </div>
+              </div>
+              <div class="product-content">
+                <h3>Poultry Feeds</h3>
+                <p class="product-description">
+                  Premium nutrition for layers and broilers.
+                </p>
+                <div class="product-meta">
+                  <span class="product-category">Livestock Products</span>
+                  <span class="product-badge premium">Premium Blend</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== TESTIMONIALS ===== -->
+      <section class="section testimonials">
+        <div class="container">
+          <div class="section-header">
+            <h2>What Our Customers Say</h2>
+            <p class="section-subtitle">
+              Trusted by local communities and businesses across Rwanda
+            </p>
+          </div>
+
+          <div class="testimonial-slider">
+            <div class="testimonial-card card">
+              <div class="testimonial-content">
+                <div class="testimonial-text">
+                  "Ikamba Foods has been our trusted supplier for over 5 years.
+                  Their avocados are consistently the best quality in the
+                  region, and their commitment to sustainable practices aligns
+                  with our restaurant's values."
+                </div>
+                <div class="testimonial-author">
+                  <div class="author-image">
+                    <img
+                      src="img/89.jpg"
+                      alt="Portrait of Marie Claire, Restaurant Owner"
+                    />
+                  </div>
+                  <div class="author-details">
+                    <h4>Marie Claire</h4>
+                    <p>Restaurant Owner, Kigali</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card card">
+              <div class="testimonial-content">
+                <div class="testimonial-text">
+                  "As a local farmer, I've partnered with Ikamba Foods for their
+                  livestock feeds. The quality is exceptional, and my animals
+                  are healthier than ever. Their team provides excellent
+                  agronomic support too."
+                </div>
+                <div class="testimonial-author">
+                  <div class="author-image">
+                    <img
+                      src="img/59.jpg"
+                      alt="Portrait of Jean Paul, Local Farmer"
+                    />
+                  </div>
+                  <div class="author-details">
+                    <h4>Jean Paul</h4>
+                    <p>Local Farmer, Rwamagana</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card card">
+              <div class="testimonial-content">
+                <div class="testimonial-text">
+                  "The honey from Ikamba Foods is unparalleled in purity and
+                  flavor. We stock it in our specialty food store, and customers
+                  consistently come back for more. It's wonderful to support a
+                  local business with such high standards."
+                </div>
+                <div class="testimonial-author">
+                  <div class="author-image">
+                    <img src="img/16.jpg" alt="Portrait of Grace, Shop Owner" />
+                  </div>
+                  <div class="author-details">
+                    <h4>Grace</h4>
+                    <p>Shop Owner, Musanze</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-controls">
+            <button class="control-prev" name="prev">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="testimonial-dots"></div>
+            <button class="control-next" name="next">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== CONTACT ===== -->
+      <section id="contact" class="section contact">
+        <div class="container">
+          <div class="section-header">
+            <h2>Get in Touch</h2>
+            <p class="section-subtitle">
+              Ready to partner with us or have questions about our products?
+              We'd love to hear from you.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-info card">
+              <h3>Contact Information</h3>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-details">
+                  <strong>Location</strong>
+                  <p>Mwulire, Rwamagana, Rwanda</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-details">
+                  <strong>Email</strong>
+                  <p>
+                    <a href="mailto:info@ikambafoods.rw">info@ikambafoods.rw</a>
+                  </p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-details">
+                  <strong>Phone</strong>
+                  <p>+250 792 579 878</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div class="contact-details">
+                  <strong>Business Hours</strong>
+                  <p>Mon–Fri 8:00–18:00<br />Sat 8:00–16:00<br />Sun Closed</p>
+                </div>
+              </div>
+            </div>
+
+            <form
+              class="contact-form card"
+              action="#"
+              method="post"
+              aria-label="Contact form"
+              id="contactForm"
+            >
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  placeholder="Enter your full name"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="your.email@example.com"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input
+                  id="subject"
+                  name="subject"
+                  type="text"
+                  placeholder="What is this regarding?"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="How can we help you?"
+                  required
+                ></textarea>
+              </div>
+
+              <button class="btn btn-cta" type="submit">
+                <span>Send Message</span>
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer section">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- About / Company info -->
+          <div class="footer-col">
+            <div class="footer-logo">Ikamba Foods LTD</div>
+            <p class="footer-about-text">
+              Leading mixed farming operations in Rwanda, specializing in
+              sustainable dairy farming, piggery, poultry, apiculture, livestock
+              feeds production, and seasonal crop production.
+            </p>
+            <div class="social-links">
+              <a href="#" aria-label="Follow us on Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="Follow us on Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="Follow us on Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" aria-label="Connect on LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#products">Our Products</a></li>
+              <li><a href="#impact">Our Impact</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- Products -->
+          <div class="footer-col">
+            <h4>Products</h4>
+            <ul>
+              <li><a href="#products">Fresh Produce</a></li>
+              <li><a href="#products">Dairy Products</a></li>
+              <li><a href="#products">Honey</a></li>
+              <li><a href="#products">Livestock Feeds</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact Information -->
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <div class="footer-contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Mwulire, Rwamagana, Rwanda</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>info@ikambafoods.rw</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+250 792 579 878</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer bottom -->
+        <div class="footer-bottom">
+          <p>
+            Copyright &copy; <span class="year">2027</span> All rights reserved.
+            | Sustainable Farming Excellence in Rwanda
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- ===== JS ===== -->
+    <script>
+      // Loading screen
+      window.addEventListener("load", () => {
+        setTimeout(() => {
+          document.getElementById("loadingScreen").classList.add("fade-out");
+          setTimeout(() => {
+            document.getElementById("loadingScreen").style.display = "none";
+          }, 500);
+        }, 1500);
+      });
+
+      // Menu functionality
+      (function () {
+        const menuToggle = document.getElementById("menuToggle");
+        const sideMenu = document.getElementById("sideMenu");
+        const closeMenu = document.getElementById("closeMenu");
+        const focusableLinks = sideMenu.querySelectorAll("a");
+
+        function openMenu() {
+          sideMenu.classList.add("open");
+          sideMenu.setAttribute("aria-hidden", "false");
+          menuToggle.setAttribute("aria-expanded", "true");
+          // move focus to first link for keyboard users
+          if (focusableLinks.length) focusableLinks[0].focus();
+          document.body.style.overflow = "hidden";
+        }
+
+        function closeMenuFn() {
+          sideMenu.classList.remove("open");
+          sideMenu.setAttribute("aria-hidden", "true");
+          menuToggle.setAttribute("aria-expanded", "false");
+          menuToggle.focus();
+          document.body.style.overflow = "";
+        }
+
+        menuToggle.addEventListener("click", openMenu);
+        closeMenu.addEventListener("click", closeMenuFn);
+
+        // Close menu when a link is clicked (improves mobile UX)
+        sideMenu.addEventListener("click", (e) => {
+          if (e.target.tagName === "A") closeMenuFn();
+        });
+
+        // Close on Escape
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "Escape" && sideMenu.classList.contains("open"))
+            closeMenuFn();
+        });
+      })();
+
+      // Back to top button
+      const backToTopBtn = document.getElementById("backToTop");
+
+      window.addEventListener("scroll", () => {
+        if (window.pageYOffset > 300) {
+          backToTopBtn.classList.add("show");
+        } else {
+          backToTopBtn.classList.remove("show");
+        }
+      });
+
+      backToTopBtn.addEventListener("click", () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      });
+
+      // Counter animation for stats
+      function animateCounter() {
+        const counters = document.querySelectorAll(".stat-number");
+        const speed = 200;
+
+        counters.forEach((counter) => {
+          const target = +counter.getAttribute("data-count");
+          const count = +counter.innerText;
+          const increment = Math.ceil(target / speed);
+
+          if (count < target) {
+            counter.innerText = Math.min(count + increment, target);
+            setTimeout(() => animateCounter(counter), 1);
+          }
+        });
+      }
+
+      // Initialize counter animation when in viewport
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              animateCounter();
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.5 }
+      );
+
+      // Observe the stats section
+      const statsSections = document.querySelectorAll(
+        ".hero-stats, .impact-stats"
+      );
+      statsSections.forEach((section) => {
+        observer.observe(section);
+      });
+
+      // Product filtering
+      const filterButtons = document.querySelectorAll(".filter-btn");
+      const productCards = document.querySelectorAll(".product-card");
+
+      filterButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          // Remove active class from all buttons
+          filterButtons.forEach((btn) => btn.classList.remove("active"));
+          // Add active class to clicked button
+          button.classList.add("active");
+
+          const filterValue = button.getAttribute("data-filter");
+
+          productCards.forEach((card) => {
+            if (
+              filterValue === "all" ||
+              card.getAttribute("data-category") === filterValue
+            ) {
+              card.style.display = "block";
+            } else {
+              card.style.display = "none";
+            }
+          });
+        });
+      });
+
+      // Testimonial slider
+      const testimonialSlider = document.querySelector(".testimonial-slider");
+      const testimonialCards = document.querySelectorAll(".testimonial-card");
+      const prevButton = document.querySelector(".control-prev");
+      const nextButton = document.querySelector(".control-next");
+      const dotsContainer = document.querySelector(".testimonial-dots");
+      let currentSlide = 0;
+
+      // Create dots
+      testimonialCards.forEach((_, i) => {
+        const dot = document.createElement("button");
+        dot.classList.add("dot");
+        if (i === 0) dot.classList.add("active");
+        dot.setAttribute("aria-label", `Go to testimonial ${i + 1}`);
+        dot.addEventListener("click", () => goToSlide(i));
+        dotsContainer.appendChild(dot);
+      });
+
+      function goToSlide(n) {
+        testimonialCards.forEach((card) => card.classList.remove("active"));
+        document
+          .querySelectorAll(".dot")
+          .forEach((dot) => dot.classList.remove("active"));
+
+        currentSlide = n;
+        testimonialCards[currentSlide].classList.add("active");
+        document.querySelectorAll(".dot")[currentSlide].classList.add("active");
+      }
+
+      function nextSlide() {
+        goToSlide((currentSlide + 1) % testimonialCards.length);
+      }
+
+      function prevSlide() {
+        goToSlide(
+          (currentSlide - 1 + testimonialCards.length) % testimonialCards.length
+        );
+      }
+
+      prevButton.addEventListener("click", prevSlide);
+      nextButton.addEventListener("click", nextSlide);
+
+      // Auto-advance slides
+      setInterval(nextSlide, 5000);
+
+      // Initialize first slide
+      goToSlide(0);
+
+      // Form validation
+      const contactForm = document.getElementById("contactForm");
+
+      contactForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        // Simple validation
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const subject = document.getElementById("subject").value;
+        const message = document.getElementById("message").value;
+
+        if (name && email && subject && message) {
+          // Here you would typically send the form data to a server
+          alert("Thank you for your message! We will get back to you soon.");
+          contactForm.reset();
+        } else {
+          alert("Please fill in all required fields.");
+        }
+      });
+
+      // Set current year
+      const yearEl = document.querySelector(".year");
+      const currentYear = new Date().getFullYear();
+      yearEl.textContent = currentYear;
+    </script>
+  </body>
+</html>
